@@ -87,3 +87,95 @@ x============x
 [2025-11-28 21:50:43,850: INFO: common]: yaml file: params.yaml loaded successfully
 [2025-11-28 21:50:43,852: INFO: common]: yaml file: schema.yaml loaded successfully
 [2025-11-28 21:50:43,854: INFO: common]: created directory at: artifacts_root
+[2025-11-29 21:22:28,469: INFO: main]: >>>>>> stage Data Ingestion Stage started <<<<<<
+[2025-11-29 21:22:28,584: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-11-29 21:22:28,717: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-11-29 21:22:28,760: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-11-29 21:22:28,785: INFO: common]: created directory at: artifacts_root
+[2025-11-29 21:22:28,787: INFO: common]: created directory at: artifacts/data_ingestion
+[2025-11-29 21:22:28,788: INFO: data_ingestion]: File already exists
+[2025-11-29 21:22:29,146: INFO: main]: >>>>>>> stage Data Ingestion Stage completed <<<<<<<
+
+x============x
+[2025-11-29 21:22:29,146: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
+[2025-11-29 21:22:29,151: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-11-29 21:22:29,155: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-11-29 21:22:29,161: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-11-29 21:22:29,165: INFO: common]: created directory at: artifacts_root
+[2025-11-29 21:22:29,166: ERROR: main]: "'ConfigBox' object has no attribute 'columns'"
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'COLUMNS'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'COLUMNS'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'COLUMNS'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\config_box.py", line 29, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'COLUMNS'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 594, in box.box.Box.__getitem__
+KeyError: 'columns'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 633, in box.box.Box.__getattr__
+  File "box\\box.py", line 621, in box.box.Box.__getitem__
+box.exceptions.BoxKeyError: "'columns'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "box\\box.py", line 635, in box.box.Box.__getattr__
+AttributeError: 'ConfigBox' object has no attribute 'columns'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\CampusX\Miscellaneous topics\datascienceproject\main.py", line 21, in <module>
+    data_validation.initiate_data_validation()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\CampusX\Miscellaneous topics\datascienceproject\src\datascience\pipeline\data_validation_pipeline.py", line 13, in initiate_data_validation
+    data_validation_config = config.get_data_validation_config()
+  File "D:\CampusX\Miscellaneous topics\datascienceproject\src\datascience\config\configuration.py", line 31, in get_data_validation_config
+    schema = self.config.COLUMNS
+             ^^^^^^^^^^^^^^^^^^^
+  File "box\\config_box.py", line 31, in box.config_box.ConfigBox.__getattr__
+  File "box\\box.py", line 649, in box.box.Box.__getattr__
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'columns'"
+[2025-11-29 21:35:24,871: INFO: main]: >>>>>> stage Data Ingestion Stage started <<<<<<
+[2025-11-29 21:35:24,902: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-11-29 21:35:24,935: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-11-29 21:35:24,951: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-11-29 21:35:24,963: INFO: common]: created directory at: artifacts_root
+[2025-11-29 21:35:24,965: INFO: common]: created directory at: artifacts/data_ingestion
+[2025-11-29 21:35:24,967: INFO: data_ingestion]: File already exists
+[2025-11-29 21:35:24,988: INFO: main]: >>>>>>> stage Data Ingestion Stage completed <<<<<<<
+
+x============x
+[2025-11-29 21:35:24,989: INFO: main]: >>>>>> stage Data Validation stage started <<<<<<
+[2025-11-29 21:35:24,995: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-11-29 21:35:24,999: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-11-29 21:35:25,008: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-11-29 21:35:25,012: INFO: common]: created directory at: artifacts_root
+[2025-11-29 21:35:25,015: INFO: common]: created directory at: artifacts/data_validation
+[2025-11-29 21:35:25,298: INFO: main]: >>>>>>> stage Data Validation stage completed <<<<<<<
+
+x============x
