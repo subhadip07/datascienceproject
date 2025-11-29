@@ -67,3 +67,23 @@ Source-Age: 0
 [2025-11-27 21:10:56,901: INFO: main]: >>>>>>> stage Data Ingestion Stage completed <<<<<<<
 
 x============x
+[2025-11-28 21:44:58,145: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-11-28 21:44:58,354: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-11-28 21:44:58,419: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-11-28 21:44:58,513: INFO: common]: created directory at: artifacts_root
+[2025-11-28 21:47:26,707: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-11-28 21:47:26,709: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-11-28 21:47:26,724: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-11-28 21:47:26,727: INFO: common]: created directory at: artifacts_root
+[2025-11-28 21:48:11,432: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-11-28 21:48:11,434: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-11-28 21:48:11,438: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-11-28 21:48:11,439: INFO: common]: created directory at: artifacts_root
+[2025-11-28 21:48:58,058: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-11-28 21:48:58,060: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-11-28 21:48:58,067: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-11-28 21:48:58,069: INFO: common]: created directory at: artifacts_root
+[2025-11-28 21:50:43,848: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-11-28 21:50:43,850: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-11-28 21:50:43,852: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-11-28 21:50:43,854: INFO: common]: created directory at: artifacts_root
