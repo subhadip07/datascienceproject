@@ -11,3 +11,4 @@ wheels/
 logs/
 artifacts/
 artifacts_root/
+.env
