@@ -9,6 +9,12 @@ import joblib
 from src.datascience.entity.config_entity import ModelEvaluationConfig
 from src.datascience.constants import *
 from src.datascience.utils.common import read_yaml, create_directories, save_json
+from dotenv import load_dotenv
+load_dotenv()
+
+os.environ["MLFLOW_TRACKING_URL"] = "https://dagshub.com/subhadip18/datascienceproject.mlflow"
+os.environ["MLFLOW_TRACKING_USERNAME"] = "subhadip18"
+MLFLOW_TRACKING_PASSWORD = os.getenv("MLFLOW_TRACKING_PASSWORD")
 
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):
@@ -27,7 +33,7 @@ class ModelEvaluation:
         test_x = test_data.drop([self.config.target_column], axis=1)
         test_y = test_data[self.config.target_column]
 
-        mlflow.set_registry_uri(self.config.mlflow_url)
+        mlflow.set_registry_uri(self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
         with mlflow.start_run():

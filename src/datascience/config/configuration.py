@@ -83,7 +83,7 @@ class ConfigurationManager:
             all_params=params,
             metric_file_name=config.metric_file_name,
             target_column=schema.name,
-            mlflow_url="https://dagshub.com/subhadip18/datascienceproject.mlflow"
+            mlflow_uri="https://dagshub.com/subhadip18/datascienceproject.mlflow"
         )
 
         return model_evaluation_config
