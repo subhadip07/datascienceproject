@@ -324,3 +324,29 @@ x============x
 [2025-12-02 18:01:10,572: INFO: main]: >>>>>>> stage Model Training stage completed <<<<<<<
 
 x============x
+[2025-12-04 17:54:44,252: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-12-04 17:54:45,032: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-12-04 17:54:45,220: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-12-04 17:54:45,442: INFO: common]: created directory at: artifacts_root
+[2025-12-04 17:54:45,444: INFO: common]: created directory at: artifacts/model_evaluation
+[2025-12-04 17:55:23,439: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-12-04 17:55:23,443: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-12-04 17:55:23,446: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-12-04 17:55:23,448: INFO: common]: created directory at: artifacts_root
+[2025-12-04 17:55:23,450: INFO: common]: created directory at: artifacts/model_evaluation
+[2025-12-04 17:56:07,094: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-12-04 17:56:07,096: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-12-04 17:56:07,101: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-12-04 17:56:07,103: INFO: common]: created directory at: artifacts_root
+[2025-12-04 17:56:07,106: INFO: common]: created directory at: artifacts/model_evaluation
+[2025-12-04 17:57:14,701: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-12-04 17:57:14,704: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-12-04 17:57:14,711: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-12-04 17:57:14,714: INFO: common]: created directory at: artifacts_root
+[2025-12-04 17:57:14,716: INFO: common]: created directory at: artifacts/model_evaluation
+[2025-12-04 18:00:34,763: INFO: common]: yaml file: config\config.yaml loaded successfully
+[2025-12-04 18:00:34,766: INFO: common]: yaml file: params.yaml loaded successfully
+[2025-12-04 18:00:34,803: INFO: common]: yaml file: schema.yaml loaded successfully
+[2025-12-04 18:00:34,806: INFO: common]: created directory at: artifacts_root
+[2025-12-04 18:00:34,808: INFO: common]: created directory at: artifacts/model_evaluation
+[2025-12-04 18:01:59,067: INFO: common]: json file saved at: artifacts\model_evaluation\metrics.json
