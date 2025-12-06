@@ -558,3 +558,12 @@ x============x
 [2025-12-04 21:40:43,861: INFO: main]: >>>>>>> stage Model Evaluation stage completed <<<<<<<
 
 x============x
+[2025-12-06 21:28:20,201: INFO: _internal]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://10.201.80.59:8080
+[2025-12-06 21:28:20,228: INFO: _internal]: [33mPress CTRL+C to quit[0m
+[2025-12-06 21:28:58,640: INFO: _internal]: 127.0.0.1 - - [06/Dec/2025 21:28:58] "GET / HTTP/1.1" 200 -
+[2025-12-06 21:28:59,687: INFO: _internal]: 127.0.0.1 - - [06/Dec/2025 21:28:59] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
+[2025-12-06 21:29:00,252: INFO: _internal]: 127.0.0.1 - - [06/Dec/2025 21:29:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-12-06 21:32:21,975: INFO: _internal]: 127.0.0.1 - - [06/Dec/2025 21:32:21] "POST /predict HTTP/1.1" 200 -
